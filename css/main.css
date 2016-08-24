@@ -1,0 +1,54 @@
+/*for troubleshooting*/
+svg {
+    border: 1px solid #1696d2;
+}
+
+
+/*graph elements*/
+
+.axis,
+.axis-show {
+    font-size: 11px;
+    color: #333;
+}
+
+.axis path {
+    display: none;
+}
+
+.axis-show path,
+.axis-show line {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis line {
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis .minor line {
+    stroke: #efefef;
+}
+
+.axistitle {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.footnote {
+    font-size: 11px;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.graphtitle {
+    font-size: 12px;
+}
+
+.pointlabel {
+    font-size: 12px;
+    fill: #000;
+}
